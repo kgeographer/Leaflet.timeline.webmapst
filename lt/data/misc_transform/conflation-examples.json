@@ -1,0 +1,61 @@
+bordeaux;bor_179;paramuole;http://linkedplaces.org/places/bor_179;Paramuole;25.047069;42.198004;
+    [{"uri":"http://pleiades.stoa.org/places/216920","names":['Parambole']}];
+TODO:
+create a datasets.config
+
+PSEUDOCODE
+class newRecord = 
+    {
+        "representative_title": "paramuole", 
+        "temporal_bounds_union": ["0333", "", "", "0334", "from 333-334CE"], 
+        "is_conflation_of": [
+            {"id": "bor_179",
+             "title": "paramuole",
+             "names": [{"name": "paramuole", "language": ""}], 
+             "uri": "http://linkedplaces.org/places/bor_179", 
+             "exact_matches": [
+                 {"uri": "http://pleiades.stoa.org/places/216920", "names": ["Parambole"]}
+                 ],
+             "source_gazetteer": "bordeaux", 
+             "close_matches": [], 
+             "place_types": "", 
+             "temporal_bounds": "", 
+             "descriptions": [
+                 {"description": "", "language": ""}]
+             }
+            ], 
+        "suggest": ["Paramuole", "paramuole"], 
+        "id": "bor_179", 
+        "representative_geometry": "", 
+        "representative_point": [25.047069, 42.198004]
+    }
+    
+config = dataset.config
+# unify .csv files for all gazetteers (3976 records)
+allPlaces = []
+for file in source/data/places_*.csv:
+    for line in file
+        place = {"id":line.id,"uri":line.uri,"timepans":config.{dataset}.timespan,"exact":line.exact}
+        allPlaces.append(place)
+
+open indexIn.jsonl for write
+allIndex = []
+for x in range(len(allPlaces)):
+    if allPlaces[x].uri is in any(allIndex[x].exact_matches.uri): # any(x for x in mylist if x.n == 10)
+        add to that record's is_conflation_of list []
+    else:
+        # make new record, add to allIndex
+        foo = new classRecord
+        allIndex.append(foo)
+        
+    
+    allIndex[x].is_conflation_of.exact_matches.uri:  #any(x for x in mylist if x.n == 10)
+
+
+    temporal_bounds_union = 
+
+
+
+
+
+bor_179;[{"uri":"http://pleiades.stoa.org/places/216920","names":['Parambole']}]

@@ -1,0 +1,55 @@
+place_id;lp_label;cntry;gnid;gn_name
+ra0001;Palo Alto;US;5380748;Palo Alto
+ra0002;Fernley;US;5504003;Fernley
+ra0003;Delta;US;5538080;Delta
+ra0004;Craig;US;5576064;Craig
+ra0005;Fort Collins;US;5577147;Fort Collins
+ra0006;Denver;US;5419384;Denver
+ra0007;Cambridge;US;4931972;Cambridge
+ra0008;Paris;FR;2988507;Paris
+ra0009;Bourg-en-Bresse;FR;3031009;Bourg-en-Bresse
+ra0010;Milan;IT;3173435;Milan
+ra0011;Rijeka;HR;3191648;Rijeka
+ra0012;Zagreb;HR;3186886;Zagreb
+ra0013;Sarajevo;BA;3191281;Sarajevo
+ra0014;Mostar;BA;3194828;Mostar
+ra0015;Dubrovnik;HR;3201047;Dubrovnik
+ra0016;Kotor;ME;3197538;Kotor
+ra0017;Split;HR;3190261;Split
+ra0018;Trogir;HR;3188763;Trogir
+ra0019;Solin;HR;3190359;Solin
+ra0020;Ancona;IT;3183089;Ancona
+ra0021;Ascoli Piceno;IT;3182749;Ascoli Piceno
+ra0022;Madrid;ES;3117735;Madrid
+ra0023;Edinburgh;GB;2650225;Edinburgh
+ra0024;Bangkok;TH;1609350;Bangkok
+ra0025;Korenica;HR;3189076;Korenica
+ra0026;Sarnano;IT;3167119;Sarnano
+ra0027;Grottammare;IT;3175771;Grottammare
+ra0028;Offida;IT;3172104;Offida
+ra0029;Rome;IT;3169070;Rome
+ra0030;Urbino;IT;3165035;Urbino
+ra0031;San Marino;SM;3168070;San Marino
+ra0032;Rieti;IT;3169412;Rieti
+ra0033;Boston;US;4930956;Boston
+ra0034;Reykjavik;IS;3413829;Reykjavík
+ra0036;Civitanova Marche;IT;3170102;Civitanova Marche
+ra0037;Assisi;IT;3182722;Assisi
+ra0038;Figueres;ES;3122453;Figueres
+ra0039;Mérida;ES;2513917;Mérida
+ra0040;Sevilla;ES;2510911;Sevilla
+ra0041;Cordoba;ES;2519240;Córdoba
+ra0042;Granada;ES;2517117;Granada
+ra0043;Consuegra;ES;2519277;Consuegra
+ra0044;Toledo;ES;2510409;Toledo
+ra0045;San Sebastian;ES;3110044;Donostia / San Sebastián
+ra0046;Orléans;FR;2989317;Orléans
+ra0048;Glasgow;GB;2648579;Glasgow
+ra0049;Fort William;GB;2649169;Fort William
+ra0050;Inverness;GB;2646088;Inverness
+ra0051;Stanley;GB;2637071;Stanley
+ra0052;Vienna;AT;2761369;Vienna
+ra0053;Chiang Mai;TH;1153671;Chiang Mai
+ra0054;Nong Khai;TH;1608232;Nong Khai
+ra0055;Frankfurt am Main;DE;2925533;Frankfurt am Main
+ra0056;Doha;QA;290030;Doha

@@ -1,0 +1,19 @@
+for i in chrono_facets
+	get count
+	make start/end t_span
+	make c(ount)_per_year 
+	build max_c(ount)_per_year
+	build all_min_year
+	add t_span to list{}
+	add chrono[i] to chrono_objs{}
+now have temporal extent:
+	chrono_facets_min_year
+	chrono_facets_max_year
+reverse sort list{} of t_spans by key (chrono_id)
+all_t_span = extent in years
+
+
+
+***********
+what does a chrono_facet look like?
+what format are start and end?

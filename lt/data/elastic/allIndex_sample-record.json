@@ -1,0 +1,25 @@
+{
+	"id": "pl.bor_179", 
+	"representative_title": "paramuole",
+	"is_conflation_of": [
+		{	"id": "bor_179", 
+			"source_gazetteer": "bordeaux", 
+			"uri": "http://linkedplaces.org/places/bor_179", 
+			"title": "paramuole",
+			"exact_matches": [
+				{	"uri": "http://pleiades.stoa.org/places/216920", 
+					"names": ["Parambole"]}
+			], 
+			"names": [{"language": "", "name": "paramuole"}],
+			"close_matches": [], 
+			"place_types": [], 
+			"temporal_bounds": ["", "", "", "", ""], 
+			"descriptions": [{"description": "", "language": ""}]
+		}
+	],
+	"representative_geometry": [25.047069, 42.198004],
+	"representative_point": [25.047069, 42.198004],
+	"suggest": ["paramuole", "Parambole"], 
+	"temporal_bounds_union": [], 
+}
+

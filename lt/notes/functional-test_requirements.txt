@@ -1,0 +1,23 @@
+# required tests <<shudder>>
+
+ACTION -> RESULT
+-	hover on bbox -> thicker border, tooltip blurb
+-	click bbox -> load project dataset to map, timeline; select menu checkbox
+-	click project menu item -> load project dataset to map, time vis
+	- time vis dependent on segment type 
+		journey (xuanzang, roundabout) -> segment events on timeline w/brush
+		journey-p (bordeaux) -> relevant & surrounding periods from PeriodO
+		journeys (incanto) -> histogram w/buckets per "grain" setting
+		hroute-p (vicarello, courier) -> relevant & surrounding periods from PeriodO
+		hroutes (owtrad) -> 
+- click place/point on map -> popup w/
+	-	link to Pleiades, GeoNames, or TGAZ api record
+	-	link "Find connections"
+-	click place popup link to gazetteer -> dynamically load record into modal window
+-	click "Find connections" -> display segments with selected places as source or target
+	-	TODO: needs to span projects/datasets
+- click selected project in project menu -> de-select, clear map, timeline, abstract, reset url (if applicable)
+- click info icon in project menu header -> load blog post into _new browser window
+	- TODO??: load instructions into modal
+	-	TODO??: About modal
+

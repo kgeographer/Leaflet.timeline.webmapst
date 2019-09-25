@@ -1,0 +1,44 @@
+bugs, TODO
+- tests
+
+/ - push code
+/ - re-index remote
+/ - blog post
+
+
+NEXT POINT VERSION
+-	timeline -> map point link
+-	link to PeriodO collection
+- owtrad IDs in segment search !? returns unnamed points
+- expand scope for functions in secondary files
+-	finish reading collection attributes from config file
+- zoom-to segment too close
+- Incanto histogram bins are not all 1 year
+- zoom to union extent if > 1 project loaded
+
+
+/	- timeline vis > 1 into tabs
+/ -	'Find connections' link from place popup
+/ - mouseover in project menu only if no checkbox checked
+/	-	need to find connections across projects
+/	- google analytics uri change
+/- zapLayer: don't remove all timeline vis
+/- point color legend
+/- highlight bbox on hover project in menu
+
+/-	abstract box Period(s):
+/	-	label always appears, even for those without; nothing for those that _do_ have periods
+
+/-	Find connections: broken
+/	-	zapLayer doesn't get abstract box for Incanto
+/- check indexing, locally & remotely
+/	- index doesn't find Milan connections, e.g.
+/	- needs to work on lp gazetteer ids??
+
+/	-	incanto segment labels
+/	-	dialog box for Incanto places doesn't have geonames link
+/	- Incanto connections link returns nothing
+/	-	Pleiades record for Vicarello hangs, but Bordeaux works
+/	- geonames uri has username-demo for courier
+/	- Vicarello bbox missing
+

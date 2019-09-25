@@ -1,0 +1,33 @@
+GET /_cat/indices?v
+GET /linkedplaces/_mapping/segment
+GET /linkedplaces/_mapping/place
+GET /linkedplaces
+
+DELETE /linkedplaces
+PUT /linkedplaces?pretty
+
+GET /_search
+{
+  "query": {
+    "multi_match" : {
+      "query":    "ra0038", 
+      "fields": [ "properties.source","properties.target" ] 
+    }
+  }
+}
+GET /_search
+{
+  "query": {
+    "multi_match" : {
+      "query":    "6001", 
+      "fields": [ "properties.route_id" ] 
+    }
+  }
+}
+
+GET _search
+{
+  "query": {
+    "match_all": {}
+  }
+}
