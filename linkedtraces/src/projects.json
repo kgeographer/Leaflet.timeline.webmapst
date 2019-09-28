@@ -1,4 +1,40 @@
 window.projects = {
+  "100features": {
+    "lp_id": "100features",
+		"title": "100 Features from DK Atlas",
+		"authors": [{"name": "WHG team", "uri":""}],
+		"contributors": [{"name":"Karl Grossner", "uri":""}],
+		"pub_date": "2017",
+		"places": "100features.csv",
+		"timespan": ["-9999","","","1990","a long span"],
+		"timevis": {"type":"histogram","label":"Count of features"},
+		"periods": [],
+		"references": [
+			{	"name":"{reference name}",
+				"type":"seeFurther",
+				"uri":"{reference uri}"}
+		],
+		"languages": ["en"],
+		"description": ""
+  },
+  "ghats": {
+    "lp_id": "ghats",
+		"title": "Western Ghats",
+		"authors": [{"name": "Gethin Rees", "uri":""}],
+		"contributors": [{"name":"Gethin Rees", "uri":""}],
+		"pub_date": "2017",
+		"places": ".csv",
+		"timespan": ["-0300","","","0850","from 300BCE to 850CE"],
+		"timevis": {"type":"period-timeline","label":""},
+		"periods": [{"name":"", "uri":"https://test.perio.do/gjgrsr3qh.json"}],
+		"references": [
+			{	"name":"{reference name}",
+				"type":"seeFurther",
+				"uri":"{reference uri}"}
+		],
+		"languages": ["en"],
+		"description": ""
+  },
 	"bordeaux": {
 		"lp_id": "lp_bordeaux",
 		"title": "Itinerary of the Bordeaux Pilgrim",

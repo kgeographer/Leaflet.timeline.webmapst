@@ -40,9 +40,20 @@
       <div id="tltabs" class="tab"></div>
     </div>
     <div id='data' class="panel">
-      <h3 class="panel-title"><img src="lib/images/LinkedTraces.png" /><i class="fa fa-info-circle" aria-hidden="true"></i></h3>
+      <h3 class="panel-title">WebMap-T
+        <!-- <i class="fa fa-info-circle" aria-hidden="true"></i> -->
+      </h3>
       <!-- <h3 class="panel-title">Linked Traces <i class="fa fa-info-circle" aria-hidden="true"></i></h3> -->
       <div id='data_layers' class="panel-body">
+        <p class="menu-header">Misc</p>
+          <div class="checkbox">
+            <label><input type="checkbox" value="100features"><label>100 Features</label>
+              <!-- <select name="speed" id="speed">
+              <option selected="selected">Select a dataset</option>
+              <option>Gethin's thing</option>
+              <option>6500 WHG places</option>
+            </select> -->
+          </div>
         <p class="menu-header">Journeys</p>
         <div class="checkbox">
           <label><input type="checkbox" value="bordeaux">Bordeaux Pilgrimage (4 c.)
@@ -78,21 +89,20 @@
       <div id='data_abstract'>
         <div id='data_abstract_intro'>
           <p>This work-in-progress prototype is intended to test and demonstrate <b>GeoJSON-T</b>, a GeoJSON extension
-            in development for representing data about historical movement as well as the
-            Place records of historical gazetteers. </p>
-          <p>The datasets listed above concern three kinds of movement: <b>journeys</b>, <b>flows</b>,
-            and <b>named historical routes/route systems</b>.</p>
+            in development for temporlity associated with geographic features of any kind. </p>
+          <!-- <p>The datasets listed above concern three kinds of movement: <b>journeys</b>, <b>flows</b>,
+            and <b>named historical routes/route systems</b>.</p> -->
         </div>
       </div>
     </div>
-    <div id="search" class="panel left-panel">
+    <!-- <div id="search" class="panel left-panel">
       <div id="bloodhound">
         <input class="typeahead" type="text" placeholder="Search place names">
       </div>
       <div id="results">
         <div id="results_inset"></div>
       </div>
-    </div>
+    </div> -->
     <div class="modal fade" id="graph_modal" role="dialog">
       <div class="modal-dialog">
         <div class="modal-content">
